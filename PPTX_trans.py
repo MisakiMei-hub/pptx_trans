@@ -1,7 +1,12 @@
 from pptx import Presentation
 from deep_translator import GoogleTranslator
 
-prs = Presentation("AI.pptx")
+# 获取输入文件名（自动加 .pptx 后缀）
+input_name = input("请输入要翻译的 PPTX 文件名（不含扩展名）：")
+pptx_file = input_name + ".pptx"
+output_file = input_name + "_trans.pptx"
+
+prs = Presentation(pptx_file)
 translator = GoogleTranslator(source='zh-TW', target='zh-CN')
 
 for slide in prs.slides:
@@ -18,6 +23,6 @@ for slide in prs.slides:
                             print(f"翻译出错：{original_text} -> {e}")
 
 
-prs.save("translated_output.pptx")
-print("✅ 翻译完成，已保存为 translated_output.pptx")
+prs.save(output_file)
+print("✅ 翻译完成，已保存为{output_file}")
 
