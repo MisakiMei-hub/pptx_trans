@@ -5,6 +5,14 @@ PPT 翻译工具（繁体中文 → 任意语言）
 ![GitHub stars](https://img.shields.io/github/stars/MisakiMei-hub/pptx_trans?style=social)
 ![Python](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=MisakiMei-hub/pptx_trans&type=Date)](https://star-history.com/#MisakiMei-hub/pptx_trans&Date)
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=MisakiMei-hub/pptx_trans)](https://github.com/MisakiMei-hub/pptx_trans/graphs/contributors)
+
 ## 使用说明
 
 使用前需安装缺失的库：
